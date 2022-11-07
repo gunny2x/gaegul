@@ -21,7 +21,7 @@ function save(form){
 </script>
 </head>
 <body>
-<h1>사원정보</h1>
+<h1>학생정보</h1>
 <form:form commandName="person">
     <div><spring:message code="label.name" /> : 
     <form:input path="name"/><form:errors path="name" /></div><br>
